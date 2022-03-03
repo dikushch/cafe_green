@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>кафе ЗЕЛЁНОЕ</title>
+  <link rel="stylesheet" href="css/iconstyle.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="preloader">
+    <img src="img/preloader.gif" alt="preload">
+  </div>
+
+  <header class="header">
+    <div class="header__container">
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#hero" class="menu__link"><img class="menu__logo" src="img/logo_s.png"
+                alt="logo"></a></li>
+          <li class="menu__item"><a href="#about" class="menu__link">о нас</a></li>
+          <li class="menu__item"><a href="#carte" class="menu__link">меню</a></li>
+          <li class="menu__item"><a href="#events" class="menu__link">события</a></li>
+          <li class="menu__item"><a href="#subscribe" class="menu__link">контакты</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+79991111111" class="header__phone icon-phone">+7 999 111 11 11</a>
+      <div class="brg"><span></span></div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="img/bg1.gif" alt="background image">
+    </div>
+    <p class="hero__text anim">
+      <span>свежее</span>
+      <span>вкусное</span>
+      <span>полезное</span>
+    </p>
+    <img src="img/logo_b.png" alt="logo" class="hero__logo">
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__container container">
+      <img src="img/about.jpg" alt="" class="about__img anim">
+      <p class="about__text anim">Мы небольшое вегетарианское кафе. Место, которое было создано из мечты, но также из
+        желания
+        повысить осведомленность о питании и изменении пищевых привычек. Разделяя нашу страсть к кулинарии, мы
+        рекомендуем вам есть 100% овощные блюда. Свежие блюда по оригинальным рецептам, приготовленные на основе
+        собственного опыта и гастрономических путешествий по миру.</p>
+    </div>
+  </section>
+
+  <section class="carte" id="carte">
+    <div class="carte__container container">
+      <h2 class="carte__header">меню</h2>
+      <div class="carte__box">
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>супы</span><span class="icon-menu icon-bowl"></span></button>
+          <label class="carte__label" for="#soup">супы</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">сырный суп</h3>
+                <p class="group__descr">картофель, морковь, лук, сыр, шампиньоны</p>
+              </div>
+              <p class="group__price">160 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">тыквенный суп</h3>
+                <p class="group__descr">тыква, лук, чеснок, зелень, сливки</p>
+              </div>
+              <p class="group__price">120 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">борщ</h3>
+                <p class="group__descr">картофель, морковь, свекла, капуста, томаты, зелень</p>
+              </div>
+              <p class="group__price">140 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">овощной суп</h3>
+                <p class="group__descr">картофель, морковь, цукини, цыетная капуста, болгарский перец, шампиньоны, лук
+                </p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>закуски</span><span class="icon-menu icon-canape"></span></button>
+          <label class="carte__label" for="#soup">закуски</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">закуска1</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">закуска2</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">закуска3</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">закуска4</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>салаты</span><span class="icon-menu icon-salad"></span></button>
+          <label class="carte__label" for="#soup">салаты</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">салат1</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">салат2</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">салат3</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">салат4</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>основное</span><span class="icon-menu icon-main"></span></button>
+          <label class="carte__label" for="#soup">основное</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">основное1</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">основное2</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">основное3</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">основное4</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>напитки</span><span class="icon-menu icon-drinks"></span></button>
+          <label class="carte__label" for="#soup">напитки</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">напиток1</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">напиток2</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">напиток3</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">напиток4</h3>
+                <p class="group__descr">инг.1, инг.2, инг.3</p>
+              </div>
+              <p class="group__price">130 р</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="events" id="events">
+    <div class="events__container container">
+      <h2 class="events__header">события</h2>
+      <div class="events__item">
+        <div class="events__box anim">
+          <h3 class="events__title">Концерты живой музыки</h3>
+          <p class="events__descr">По субботам проходят выступления музыкантов. Гитаристы, трубачи, саксофонисты и
+            другие мастера будут радовать вас своей игрой.</p>
+        </div>
+        <img src="img/event1.jpg" alt="концерты" class="events__img anim">
+      </div>
+      <div class="events__item">
+        <div class="events__box anim">
+          <h3 class="events__title">Лекции о здоровом образе жизни</h3>
+          <p class="events__descr">По вторникам вы можете узнать новую и полезную информацию от диетологов, тренеров по
+            йоге, медитации и других специалистов.</p>
+        </div>
+        <img src="img/event2.jpg" alt="концерты" class="events__img anim anim_r">
+      </div>
+      <div class="events__item">
+        <div class="events__box anim">
+          <h3 class="events__title">Квиз!</h3>
+          <p class="events__descr">По пятницам у нас весело и шумно. Приходи с друзьями или объединяйся в команду с
+            другими посетителями. Отличное настроение гарантированно.</p>
+        </div>
+        <img src="img/event3.png" alt="концерты" class="events__img anim">
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe" id="subscribe">
+    <div class="subscribe__container container">
+      <h2 class="subscribe__header">будь в курсе!</h2>
+      <div class="subscribe__box">
+        <div class="subscribe__social">
+          <p class="subscribe__text">подпишись на нас в социальных сетях и узнавай о предстоящих мероприятиях и
+            актуальных предложениях.</p>
+          <ul class="subscribe__list list">
+            <li class="list__item"><a href="https://www.instagram.com/" target="_blank"
+                class="list__link icon-Instagram"></a></li>
+            <li class="list__item"><a href="https://facebook.com/" target="_blank" class="list__link icon-Facebook"></a>
+            </li>
+            <li class="list__item"><a href="https://twitter.com/" target="_blank" class="list__link icon-Twitter"></a>
+            </li>
+          </ul>
+        </div>
+        <form action="" method="POST" class="subscribe__form form">
+          <p class="form__text">или получай нашу рассылку на почту.</p>
+          <input type="text" name="name" class="form__name" placeholder="Имя">
+          <input type="text" class="form__email" placeholder="Email">
+          <button class="form__btn">подписаться</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__box">
+        <h2 class="footer__name">кафе<br>ЗЕЛЁНОЕ</h2>
+        <a href="https://goo.gl/maps/iVR4zWg7PAmvqRvcA" target="_blank" class="footer__adress icon icon-place">Adress,
+          adress 1</a>
+        <a href="tel:+79991111111" class="footer__tel icon icon-phone">+7 999 111 11 11</a>
+        <ul class="footer__list list">
+          <li class="list__item"><a href="https://www.instagram.com/" target="_blank"
+              class="list__link icon-Instagram"></a></li>
+          <li class="list__item"><a href="https://facebook.com/" target="_blank" class="list__link icon-Facebook"></a>
+          </li>
+          <li class="list__item"><a href="https://twitter.com/" target="_blank" class="list__link icon-Twitter"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.157595941248!2d37.588402416046875!3d55.77313469789097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a3cea5f22ed%3A0xca46a3db803307af!2zMS3RjyDQotCy0LXRgNGB0LrQsNGPLdCv0LzRgdC60LDRjyDRg9C7Liwg0JzQvtGB0LrQstCwLCAxMjUwNDc!5e0!3m2!1sru!2sru!4v1629811478781!5m2!1sru!2sru"
+          allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
