@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>cafe GREEN</title>
+  <link rel="stylesheet" href="css/iconstyle.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="preloader">
+    <img src="img/preloader.gif" alt="preload">
+  </div>
+
+  <header class="header">
+    <div class="header__container">
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#hero" class="menu__link"><img class="menu__logo" src="img/cafeGREEN.png"
+                alt="logo"></a></li>
+          <li class="menu__item"><a href="#about" class="menu__link">about</a></li>
+          <li class="menu__item"><a href="#carte" class="menu__link">menu</a></li>
+          <li class="menu__item"><a href="#events" class="menu__link">events</a></li>
+          <li class="menu__item"><a href="#subscribe" class="menu__link">contacts</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+19991111111" class="header__phone icon-phone">+1 999 111 11 11</a>
+      <div class="brg"><span></span></div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="img/bg1.gif" alt="background image">
+    </div>
+    <p class="hero__text anim">
+      <span>fresh</span>
+      <span>tasty</span>
+      <span>healthy</span>
+    </p>
+    <img src="img/cafeGREEN.png" alt="logo" class="hero__logo">
+  </section>
+
+  <section class="about" id="about">
+    <div class="about__container container">
+      <img src="img/about.jpg" alt="" class="about__img anim">
+      <p class="about__text anim">We are a small vegetarian cafe. A place that was created out of a dream, but also out
+        of a desire to raise awareness about nutrition and changing eating habits. Sharing our passion for cooking, we
+        recommend that you eat 100% vegetable dishes. Fresh dishes according to original recipes, prepared on the basis
+        of our own experience and gastronomic travels around the world.</p>
+    </div>
+  </section>
+
+  <section class="carte" id="carte">
+    <div class="carte__container container">
+      <h2 class="carte__header">menu</h2>
+      <div class="carte__box">
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>soup</span><span class="icon-menu icon-bowl"></span></button>
+          <label class="carte__label" for="#soup">soup</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">cheese soup</h3>
+                <p class="group__descr">
+                  potatoes, carrots, onions, cheese, champignons</p>
+              </div>
+              <p class="group__price">5 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">pumpkin soup</h3>
+                <p class="group__descr">pumpkin, onion, garlic, herbs, cream</p>
+              </div>
+              <p class="group__price">4 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">borsch</h3>
+                <p class="group__descr">potatoes, carrots, beets, cabbage, tomatoes, greens</p>
+              </div>
+              <p class="group__price">5 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">vegetable soup</h3>
+                <p class="group__descr">potatoes, carrots, zucchini, cauliflower, bell peppers, mushrooms, onions
+                </p>
+              </div>
+              <p class="group__price">6 $</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>snacks</span><span class="icon-menu icon-canape"></span></button>
+          <label class="carte__label" for="#soup">snacks</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">snack1</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">3 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">snack2</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">3 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">snack3</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">3 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">snack4</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">3 $</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>salads</span><span class="icon-menu icon-salad"></span></button>
+          <label class="carte__label" for="#soup">salads</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">salad1</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">4 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">salad2</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">4 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">salad3</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">4 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">salad4</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">4 $</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>main</span><span class="icon-menu icon-main"></span></button>
+          <label class="carte__label" for="#soup">main</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">main1</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">7 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">main2</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">7 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">main3</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">7 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">main4</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">7 $</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="carte__item">
+          <button class="carte__btn" id="soup"><span>drinks</span><span class="icon-menu icon-drinks"></span></button>
+          <label class="carte__label" for="#soup">drinks</label>
+          <ul class="carte__group group">
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">drink1</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">2 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">drink2</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">2 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">drink3</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">2 $</p>
+            </li>
+            <li class="group__item">
+              <div class="group__box">
+                <h3 class="group__name">drink4</h3>
+                <p class="group__descr">ingredient1, ingredient2, ingredient3</p>
+              </div>
+              <p class="group__price">2 $</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="events" id="events">
+    <div class="events__container container">
+      <h2 class="events__header">events</h2>
+      <div class="events__item">
+        <div class="events__box anim">
+          <h3 class="events__title">Live music concerts</h3>
+          <p class="events__descr">On Saturdays there are performances of musicians. Guitarists, trumpeters,
+            saxophonists and
+            other masters will delight you with their game.</p>
+        </div>
+        <img src="img/event1.jpg" alt="концерты" class="events__img anim">
+      </div>
+      <div class="events__item">
+        <div class="events__box anim">
+          <h3 class="events__title">Lectures on a healthy lifestyle</h3>
+          <p class="events__descr">On Tuesdays you can learn new and useful information from nutritionists, fitness
+            trainers and other professionals.</p>
+        </div>
+        <img src="img/event2.jpg" alt="концерты" class="events__img anim anim_r">
+      </div>
+      <div class="events__item">
+        <div class="events__box anim">
+          <h3 class="events__title">quiz!</h3>
+          <p class="events__descr">Fridays are fun and noisy. Come with friends or team up with
+            other visitors. Great mood guaranteed.</p>
+        </div>
+        <img src="img/event3.png" alt="концерты" class="events__img anim">
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe" id="subscribe">
+    <div class="subscribe__container container">
+      <h2 class="subscribe__header">Stay in touch!</h2>
+      <div class="subscribe__box">
+        <div class="subscribe__social">
+          <p class="subscribe__text">Subscribe to us on social networks and learn about upcoming events and
+            current offers.</p>
+          <ul class="subscribe__list list">
+            <li class="list__item"><a href="https://www.instagram.com/" target="_blank"
+                class="list__link icon-Instagram"></a></li>
+            <li class="list__item"><a href="https://facebook.com/" target="_blank" class="list__link icon-Facebook"></a>
+            </li>
+            <li class="list__item"><a href="https://twitter.com/" target="_blank" class="list__link icon-Twitter"></a>
+            </li>
+          </ul>
+        </div>
+        <form action="" method="POST" class="subscribe__form form">
+          <p class="form__text">or receive our newsletter by email.</p>
+          <input type="text" name="name" class="form__name" placeholder="Name">
+          <input type="text" class="form__email" placeholder="Email">
+          <button class="form__btn">subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__box">
+        <h2 class="footer__name">cafe<br>GREEN</h2>
+        <a href="https://goo.gl/maps/R8adyM2F1UKCkZJP8" target="_blank" class="footer__adress icon icon-place">Adress,
+          adress 1</a>
+        <a href="tel:+79991111111" class="footer__tel icon icon-phone">+1 999 111 11 11</a>
+        <ul class="footer__list list">
+          <li class="list__item"><a href="https://www.instagram.com/" target="_blank"
+              class="list__link icon-Instagram"></a></li>
+          <li class="list__item"><a href="https://facebook.com/" target="_blank" class="list__link icon-Facebook"></a>
+          </li>
+          <li class="list__item"><a href="https://twitter.com/" target="_blank" class="list__link icon-Twitter"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.99144060821!2d2.292292615853499!3d48.85837360866156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5da214ddc74f6006!2z0KHQsNC0INCi0YPRgCDQrdGE0LXQu9GM!5e0!3m2!1sru!2sru!4v1658144930784!5m2!1sru!2sru"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
